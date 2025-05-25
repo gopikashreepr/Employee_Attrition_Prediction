@@ -41,4 +41,21 @@ The dataset contains HR-related features such as:
 ```bash
 git clone https://github.com/your-username/employee-attrition-prediction.git
 cd employee-attrition-prediction
+```
 
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Run the flask API locally 
+```bash
+python run app_improved.py
+```
+
+Let me know if:
+- You’re using a specific model (e.g., neural network vs. logistic regression)?
+- You’d like to include visuals like plots or a confusion matrix?
+- You want a deployment version (e.g., for Streamlit or Render)?
+
+I’ll tailor it accordingly.
