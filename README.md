@@ -22,7 +22,23 @@ This project aims to predict whether an employee is likely to leave a company (a
 - **Joblib** or **Pickle** (for model serialization)
 
 ---
+## 📊 Dataset Overview
 
-## 📂 Project Structure
+The dataset contains HR-related features such as:
 
-<pre> ``` ├── dataset/ # Dataset folder │ └── employee_data.csv # HR analytics dataset ├── models/ # Saved model and scaler │ ├── attrition_model.pkl │ └── scaler.pkl ├── app.py # Flask app (optional for API) ├── notebook.ipynb # EDA and model training ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>
+- Age, Department, JobRole
+- MonthlyIncome, Overtime
+- JobSatisfaction, WorkLifeBalance
+- YearsAtCompany, and more
+
+**Target Variable:** `Attrition` (Yes/No)
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/employee-attrition-prediction.git
+cd employee-attrition-prediction
+
