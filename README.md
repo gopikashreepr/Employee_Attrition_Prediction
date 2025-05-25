@@ -25,12 +25,4 @@ This project aims to predict whether an employee is likely to leave a company (a
 
 ## 📂 Project Structure
 
-├── dataset/ # Dataset folder
-│ └── employee_data.csv # HR analytics dataset
-├── models/ # Saved model and scaler
-│ ├── attrition_model.pkl
-│ └── scaler.pkl
-├── app.py # Flask app (optional for API)
-├── notebook.ipynb # EDA and model training
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+<pre> ``` ├── dataset/ # Dataset folder │ └── employee_data.csv # HR analytics dataset ├── models/ # Saved model and scaler │ ├── attrition_model.pkl │ └── scaler.pkl ├── app.py # Flask app (optional for API) ├── notebook.ipynb # EDA and model training ├── requirements.txt # Python dependencies └── README.md # Project documentation ``` </pre>
